@@ -1,36 +1,63 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Better Replica Project
+Project Overview
 
-## Getting Started
+Better Replica is a responsive web application built using Next.js 13+ (App Router), TypeScript, and React. The app includes interactive components such as a Mortgage Calculator and uses the modern App Router structure for page and component management.
 
-First, run the development server:
+Features
 
-```bash
+Responsive layout with modern UI
+
+Mortgage Calculator component using React hooks
+
+App Router-based folder structure
+
+Static and dynamic pages
+
+Favicon handling through public folder
+
+TypeScript type safety
+
+Tech Stack
+
+Frontend: Next.js 13+, React, TypeScript
+
+Styling: Tailwind CSS
+
+Components: React functional components
+
+Build Tool: Vite (if applicable)
+
+State Management: React useState (for client-side components)
+
+Project Structure
+better-replica/
+├─ app/
+│  ├─ mortgage-calculator/
+│  │  └─ page.tsx
+│  ├─ layout.tsx
+│  └─ page.tsx
+├─ public/
+│  └─ favicon.ico
+├─ src/
+│  └─ components/
+│     └─ MortgageCalculator.tsx
+├─ package.json
+├─ tsconfig.json
+└─ next.config.js
+
+Getting Started
+1. Install Dependencies
+npm install
+
+2. Run Development Server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Open http://localhost:3000
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Github Link : https://github.com/aniljiA1/anilmediustechnologies.git
 
-## Learn More
+Live project : https://anilmediustechnologies.vercel.app
+ to view the app.
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+3. Clean Build (Optional)
