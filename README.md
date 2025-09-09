@@ -58,6 +58,4 @@ Open http://localhost:3000
 Github Link : https://github.com/aniljiA1/anilmediustechnologies.git
 
 Live project : https://anilmediustechnologies.vercel.app
- to view the app.
 
-3. Clean Build (Optional)
